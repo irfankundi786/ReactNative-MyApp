@@ -16,6 +16,7 @@ import { MENU_ITEMS } from "@/constants/MenuItems";
 import Menu_Images from "@/constants/MenuImages";
 
 const MenuScreen = () => {
+  //this is for testing purposes
   const colorScheme = Appearance.getColorScheme();
   const theme = colorScheme === "dark" ? Colors.dark : Colors.light;
   const styles = createStyles(theme, colorScheme);
